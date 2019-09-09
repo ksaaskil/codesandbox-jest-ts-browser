@@ -1,0 +1,20 @@
+{
+  "name": "codesandbox-jest-ts-browser",
+  "version": "1.0.0",
+  "description": "Template for running Jest+TS in CodeSandbox.",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.4",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.6.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.2"
+  }
+}
